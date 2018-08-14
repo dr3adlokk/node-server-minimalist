@@ -18,4 +18,4 @@ var PORT = process.env.PORT || 3000
 app.listen(PORT, (e)=> {
   if (e) throw e
 })
-console.log('App served to local host ' + PORT)
+console.log('App served to local host port ' + PORT)
